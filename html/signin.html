@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #98EECC;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <form id="signupForm" onsubmit="return signUpUser(event)">
+            <h2>Sign Up</h2>
+            <label for="username">Username</label>
+            <input type="text" id="username" required placeholder="username">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="email">
+            <label for="location">Location</label>
+            <input type="location" id="location" required placeholder="enter your city">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" required placeholder="create a password">
+            <button type="submit">Sign Up</button>
+            <p style="font-size: small; text-align: center;">Already have an account?
+            </p>
+            <p style="font-size: small; text-align: center; text-decoration: underline;">
+                Login
+            </p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

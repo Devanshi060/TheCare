@@ -1,0 +1,100 @@
+.navbar{
+    background-color: #98EECC;
+    height: 70px;
+    justify-content: space-evenly;
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.logo{
+    font-size: xx-large;
+    color: #314E52 ;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7E6C4;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: 70px;
+
+}
+.all{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 60px;
+    background-color: #F3f3f3;
+    text-align: center;
+    border: none;
+    font-size: medium;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding-left: 8px;
+
+}
+.search-icon{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.register{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.login{
+    background-color: #7c7268;
+    color: rgb(249, 243, 243);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    margin-right: 50px;
+    font-size: large;
+}
+.help{
+    font-size: large;
+}
+img{
+    margin-top: 14px;
+    padding: 20px;
+    border: 2px solid black;
+
+}
+.sevice-name{
+    text-align: center;
+    font-size: larger;
+    background-color: #a5dbff;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.details{
+    font-size: large;
+    background-color: #FFCACC;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-md-3{
+    padding: 10px;
+    background-color: #FBFFDC;
+    border-color:  #A4907C ;
+    border-style: dashed;
+    border-width: 4px 2px 2px 2px;
+    padding-bottom: 20px;
+}
+
